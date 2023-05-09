@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wrapper{
+    background-color: darkgrey;
+}
+.link{
+    height: 60px;
+    background-color: brown;
+
+    font-size: 20px;
+    border: 2px black;
+    border-radius: 50px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.love{
+    text-decoration: none;
+    color: aliceblue;
+}
+.img{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-image: url(/images/photo_2023-02-22_23-35-06.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img:hover{
+    background-image: url(/images/e097aa3018e45a2cce59e61c4f67b8ec.jpg);
+    transition:all .1s;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.img:active{
+    background-image: url(/images/same-design-sketch-name.png);
+}
